@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "153377432546",
+    "firebase_url": "https://vvit-6391e.firebaseio.com",
+    "project_id": "vvit-6391e",
+    "storage_bucket": "vvit-6391e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153377432546:android:d182e10b4294b814",
+        "android_client_info": {
+          "package_name": "com.example.chandu.instaclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153377432546-5gao0v21dhcc5d34bogaeme98t788lnv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmnOFxG50W5eJEzZszpU37d0pldAlUpYc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153377432546:android:826307b86d7f91ca",
+        "android_client_info": {
+          "package_name": "com.example.chandu.vvit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153377432546-k1ir9mdpg99mnbr6ubkr4028b51hjrl8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chandu.vvit",
+            "certificate_hash": "86e09f5c95a8c6c39b494fef40fa3c4cd44288bc"
+          }
+        },
+        {
+          "client_id": "153377432546-5gao0v21dhcc5d34bogaeme98t788lnv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmnOFxG50W5eJEzZszpU37d0pldAlUpYc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153377432546-5gao0v21dhcc5d34bogaeme98t788lnv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

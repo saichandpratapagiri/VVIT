@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/sv"
+    xmlns:android="http://schemas.android.com/apk/res/android"  android:layout_height="match_parent"
+    android:layout_width="match_parent">
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dcd9d9"
+    tools:context="com.example.chandu.vvit.Edit"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <AutoCompleteTextView
+        android:id="@+id/regdno"
+        android:layout_width="173dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="Regd No"
+        android:inputType="textPersonName"
+        android:maxLength="10"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="76dp"
+        android:text="Attendence"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regdno" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="8dp"
+        android:text="Backlogs"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.101" />
+
+    <EditText
+        android:id="@+id/att"
+        android:layout_width="89dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/regdno" />
+
+    <EditText
+        android:id="@+id/b"
+        android:layout_width="88dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/att" />
+
+    <Button
+        android:id="@+id/go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="44dp"
+        android:background="#12d6c2"
+        android:text="Go"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/regdno"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="#04f4b0"
+        android:text="save"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/complaints" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="68dp"
+        android:text="comments"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <EditText
+        android:id="@+id/complaints"
+        android:layout_width="213dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:maxLines="10"
+        android:scrollbars="vertical"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/b" />
+</android.support.constraint.ConstraintLayout>
+</ScrollView>
